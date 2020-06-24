@@ -1,0 +1,725 @@
+@media screen and (min-width:1400px){
+	body{
+	width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+li{
+	list-style: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.fv{
+	width: 1440px;
+	height: 752px;
+	background-image:url("https://user-images.githubusercontent.com/64465468/85514507-15000200-b637-11ea-8bde-2da582915404.jpg");
+	color: white;
+}
+h1{
+	float: left;
+	margin-left: 30px;
+	font-size: 26px;
+	font-family:Noto serif;
+	font-style:italic;
+}
+.nav-list{
+	text-align: right;
+}
+.nav-item{
+	float: right;
+	margin: 0 30px;
+}
+.copy-wrapper{
+	clear: both;
+	margin-left: 30px;
+	margin-top: 300px
+}
+.copy-jp{
+	font-size: 70px;
+	margin: 10px 0;
+	font-family: 
+}
+.copy-company{
+	font-size: 40px;
+	margin: 10px 30px ;
+}
+.w-section-title{
+	font-size: 50px;
+	font-family:Noto serif;
+	font-style:italic;
+}
+.concept-section-wapperZ{
+	width: 1440px;
+}
+.content-wrapper-bg{
+	margin: 0 30px;
+}
+.content-title{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-family: メイリオ;
+}
+.section-text{
+	display: inline-block;
+	width: 40%;
+	margin-left: 5%;
+}
+.section-img{
+	display: inline-block;
+	width: 40%;
+	vertical-align: middle;
+	margin-left: 10%;
+}
+.section-logo{
+	text-align: right;
+	font-size: 90px;
+	opacity: 0.1;
+	font-family:Noto serif;
+	font-style: bold;
+}
+.section-wrapper-works{
+	width: 1440px;
+	height: 986px;
+	background-image: url("https://user-images.githubusercontent.com/64465468/85514685-41b41980-b637-11ea-8350-9484f8f9eaf7.jpg");
+	color: white;
+}
+.section-title{
+	font-size: 50px;
+	text-align: right;
+	margin-right: 100px;
+    padding-top: 200px;
+	font-family:Noto serif;
+	font-style:italic;
+}
+.s-section-wrapper{
+	display: inline-block;
+	width: 320px;
+	height: 300px;
+	vertical-align: top;
+	margin-left: 50px;
+	background-color: white;
+	text-align: center;
+}
+.content-wrapper{
+	width: 1380px;
+	margin: 0 30px;
+}
+.content-wrapper-works {
+	text-align: center;
+	margin-top: 100px;
+}
+button{
+    width: 300px;
+	background-color: darkorange;
+	height: 50px;
+	color: white;
+	font-size: 30px;
+}
+.works-button{
+	text-align: center;
+	margin-top: 100px;
+}
+.content-wrapper-works p{
+	width: 300px;
+	color: black;
+	margin: 0 10px;
+}
+.service-section-wrapper{
+	width: 1440px;
+	height: 550px;
+	margin-top: 50px;
+}
+.w-section-title{
+	margin-left: 30px;
+}
+.s-section-wrapper-service{
+	width: 470px;
+	height: 300px;
+	display: inline-block;
+	margin-bottom: 70px;
+}
+.s-section-wrapper-service p{
+	height: 300px;
+	text-align:center;
+	color: white;
+	font-size: 25px;
+	font-family:Noto serif;
+	font-style:italic;
+}
+.hearing{
+	background-image: url(https://user-images.githubusercontent.com/64465468/85515229-d9196c80-b637-11ea-970e-d3d91f1552ae.jpg);
+}
+.planning{
+	background-image: url(https://user-images.githubusercontent.com/64465468/85515240-dc145d00-b637-11ea-820f-ebcbf9610b16.jpg);
+}
+.directing{
+	background-image: url(https://user-images.githubusercontent.com/64465468/85515255-dfa7e400-b637-11ea-9acc-7674e815f609.jpg);
+}
+.section-wrapper{
+	width: 1440px;
+	height: 600px;
+	background-image: url(https://user-images.githubusercontent.com/64465468/85514260-d2d6c080-b636-11ea-907b-5bf21307fcae.jpg);
+	color: white;
+	text-align: center;
+}
+.contact-section-title{
+	text-align:right;
+	font-size: 50px;
+	margin-right: 30px;
+	padding-top: 100px;
+	font-family:Noto serif;
+	font-style:italic;
+}
+.contact-text{
+	margin: 100px 0;
+	font-size: 30px;
+}
+.contact-logo{
+	text-align: left;
+	font-size: 90px;
+	opacity: 0.1;
+	font-family:Noto serif;
+	font-style: bold;
+}
+.footer{
+	text-align: center;
+	}
+}
+@media screen and (min-width:767px) and (max-width:1399px){
+	.section-text{
+		display: block;
+	}
+	body{
+		width: 100%;
+	}
+	img{
+		width: 100%;
+	}
+	
+	.fv{
+		width: 100%;
+		height: 500px;
+		background-image:url("https://user-images.githubusercontent.com/64465468/85514507-15000200-b637-11ea-8bde-2da582915404.jpg");
+		color: white;
+		background-size: cover;
+	}
+	h1{
+		text-align: center;
+		padding-top: 20px;
+		font-size: 30px;
+	}
+	.section-img{
+		width: 100%;
+		display: block;
+	}
+	#nav-drawer {
+		position: relative;
+		top: -70px;
+		left: 20px;
+	}
+
+	/*チェックボックス等は非表示に*/
+	.nav-unshown {
+		display:none;
+	}
+
+	/*アイコンのスペース*/
+	#nav-open {
+		display: inline-block;
+		width: 30px;
+		height: 22px;
+		vertical-align: middle;
+	}
+
+	/*ハンバーガーアイコンをCSSだけで表現*/
+	#nav-open span, #nav-open span:before, #nav-open span:after {
+		position: absolute;
+		height: 3px;/*線の太さ*/
+		width: 25px;/*長さ*/
+		border-radius: 3px;
+		background: #555;
+		display: block;
+		content: '';
+		cursor: pointer;
+	}
+	#nav-open span:before {
+		bottom: -8px;
+	}
+	#nav-open span:after {
+		bottom: -16px;
+	}
+
+	/*閉じる用の薄黒カバー*/
+	#nav-close {
+		display: none;/*はじめは隠しておく*/
+		position: fixed;
+		z-index: 99;
+		top: 0;/*全体に広がるように*/
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: black;
+		opacity: 0;
+		transition: .3s ease-in-out;
+	}
+
+	/*中身*/
+	#nav-content {
+		overflow: auto;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 9999;/*最前面に*/
+		width: 30%;/*右側に隙間を作る（閉じるカバーを表示）*/
+		max-width: 330px;/*最大幅（調整してください）*/
+		height: 150px;;
+		background: #fff;/*背景色*/
+		transition: .3s ease-in-out;/*滑らかに表示*/
+		-webkit-transform: translateX(-105%);
+		transform: translateX(-105%);/*左に隠しておく*/
+		background-color: darkgray;
+		text-align: center;
+		
+	}
+	a{
+		text-decoration: none;
+		color: white;
+		font-family:Noto serif;
+		font-style:italic;
+	}
+	li{
+		list-style: none;
+	}
+
+	/*チェックが入ったらもろもろ表示*/
+	#nav-input:checked ~ #nav-close {
+		display: block;/*カバーを表示*/
+		opacity: .5;
+	}
+
+	#nav-input:checked ~ #nav-content {
+		-webkit-transform: translateX(0%);
+		transform: translateX(0%);/*中身を表示（右へスライド）*/
+		box-shadow: 6px 0 25px rgba(0,0,0,.15);
+	}
+	.copy-jp{
+		font-size: 30px;
+		margin-left: 20%;
+	}
+	.copy-company{
+		font-size:30px;
+		margin-left: 20%;
+	}
+	.w-section-title{
+		font-size: 50px;
+		font-family:Noto serif;
+		font-style:italic;
+	}
+	.content-wrapper-bg{
+		margin: 0 30px;
+	}
+	.content-title{
+		font-size: 30px;
+		text-align: center;
+		margin-bottom: 50px;
+		font-family: メイリオ;
+	}
+	.section-text{
+		display: inline-block;
+		width: 40%;
+		margin-left: 5%;
+	}
+	.section-img{
+		display: inline-block;
+		width: 40%;
+		vertical-align: top;
+		margin-left: 10%;
+	}
+	.section-logo{
+		text-align: right;
+		font-size: 90px;
+		opacity: 0.1;
+		font-family:Noto serif;
+		font-style: bold;
+	}
+	.section-wrapper-works{
+		width: 100%;
+		height: 750px;
+		background-image: url("https://user-images.githubusercontent.com/64465468/85514685-41b41980-b637-11ea-8350-9484f8f9eaf7.jpg");
+		color: white;
+		background-size: cover;
+	}
+	.section-title{
+		font-size: 50px;
+		text-align: right;
+		margin-right: 10%;
+		padding-top: 5%;
+		font-family:Noto serif;
+		font-style:italic;
+	}
+	.s-section-wrapper{
+		display: inline-block;
+		width: 20%;
+		height: 300px;
+		vertical-align: top;
+		margin-left: 3%;
+		background-color: white;
+		text-align: center;
+	}
+	.content-wrapper-works {
+		text-align: center;
+		margin-top: 50px;
+	}
+	button{
+		width: 300px;
+		background-color: darkorange;
+		height: 50px;
+		color: white;
+		font-size: 30px;
+	}
+	.works-button{
+		text-align: center;
+		margin-top: 100px;
+	}
+	.content-wrapper-works p{
+		width: 80%;
+		color: black;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.service-section-wrapper{
+		width: 100%;
+		height: 1100px;
+		margin-top: 50px;
+	}
+	.w-section-title{
+		margin-left: 30px;
+	}
+	.s-section-wrapper-service{
+		width: 100%;
+		height: 200px;
+		margin-bottom: 70px;
+	}
+	.s-section-wrapper-service p{
+		height: 300px;
+		text-align:center;
+		color: white;
+		font-size: 25px;
+		font-family:Noto serif;
+		font-style:italic;
+	}
+	.hearing{
+		background-image: url(https://user-images.githubusercontent.com/64465468/85515229-d9196c80-b637-11ea-970e-d3d91f1552ae.jpg);
+		background-size: cover;
+	}
+	.planning{
+		background-image: url(https://user-images.githubusercontent.com/64465468/85515240-dc145d00-b637-11ea-820f-ebcbf9610b16.jpg);
+		background-size: cover;
+	}
+	.directing{
+		background-image: url(https://user-images.githubusercontent.com/64465468/85515255-dfa7e400-b637-11ea-9acc-7674e815f609.jpg);
+		background-size: cover;
+	}
+	.service-content{
+		margin-bottom: 100px;
+	}
+	.section-wrapper{
+		width: 100%;
+		height: 600px;
+		background-image: url("https://user-images.githubusercontent.com/64465468/85515255-dfa7e400-b637-11ea-9acc-7674e815f609.jpg");
+		color: white;
+		text-align: center;
+		background-size: cover;
+	}
+	.contact-section-title{
+		text-align:right;
+		font-size: 50px;
+		margin-right: 30px;
+		padding-top: 100px;
+		font-family:Noto serif;
+		font-style:italic;
+	}
+	.contact-text{
+		margin: 100px 0;
+		font-size: 30px;
+	}
+	.contact-logo{
+		text-align: left;
+		font-size: 90px;
+		opacity: 0.1;
+		font-family:Noto serif;
+		font-style: bold;
+	}
+	.footer{
+		text-align: center;
+	}
+}
+@media screen and (max-width:767px){
+	body{
+		width: 100%;
+	}
+	.section-text{
+		display: block;
+	}
+	body{
+		width: 100%;
+	}
+	img{
+		width: 100%;
+	}
+
+	.fv{
+		width: 100%;
+		height: 500px;
+		background-image:url("https://user-images.githubusercontent.com/64465468/85514507-15000200-b637-11ea-8bde-2da582915404.jpg");
+		color: white;
+		background-size: cover;
+	}
+	h1{
+		text-align: center;
+		padding-top: 20px;
+		font-size: 30px;
+	}
+	.section-img{
+		width: 100%;
+		display: block;
+	}
+	#nav-drawer {
+		position: relative;
+		top: -80px;
+		
+	}
+
+	/*チェックボックス等は非表示に*/
+	.nav-unshown {
+		display:none;
+	}
+
+	/*アイコンのスペース*/
+	#nav-open {
+		display: inline-block;
+		width: 30px;
+		height: 22px;
+		vertical-align: middle;
+	}
+
+	/*ハンバーガーアイコンをCSSだけで表現*/
+	#nav-open span, #nav-open span:before, #nav-open span:after {
+		position: absolute;
+		height: 3px;/*線の太さ*/
+		width: 25px;/*長さ*/
+		border-radius: 3px;
+		background: #555;
+		display: block;
+		content: '';
+		cursor: pointer;
+	}
+	#nav-open span:before {
+		bottom: -8px;
+	}
+	#nav-open span:after {
+		bottom: -16px;
+	}
+
+	/*閉じる用の薄黒カバー*/
+	#nav-close {
+		display: none;/*はじめは隠しておく*/
+		position: fixed;
+		z-index: 99;
+		top: 0;/*全体に広がるように*/
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: black;
+		opacity: 0;
+		transition: .3s ease-in-out;
+	}
+
+	/*中身*/
+	#nav-content {
+		overflow: auto;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 9999;/*最前面に*/
+		width: 40%;/*右側に隙間を作る（閉じるカバーを表示）*/
+		max-width: 330px;/*最大幅（調整してください）*/
+		height: 150px;
+		background: #fff;/*背景色*/
+		transition: .3s ease-in-out;/*滑らかに表示*/
+		-webkit-transform: translateX(-105%);
+		transform: translateX(-105%);/*左に隠しておく*/
+		background-color: darkgray;
+	}
+	li{
+		list-style: none;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+		font-family:Noto serif;
+		font-style:italic;
+	}
+
+	/*チェックが入ったらもろもろ表示*/
+	#nav-input:checked ~ #nav-close {
+		display: block;/*カバーを表示*/
+		opacity: .5;
+	}
+
+	#nav-input:checked ~ #nav-content {
+		-webkit-transform: translateX(0%);
+		transform: translateX(0%);/*中身を表示（右へスライド）*/
+		box-shadow: 6px 0 25px rgba(0,0,0,.15);
+	}
+	.copy-jp{
+		font-size: 30px;
+		text-align: center;
+	}
+	.copy-company{
+		font-size:30px;
+        text-align: center;
+	}
+	.w-section-title{
+		font-size: 50px;
+		font-family:Noto serif;
+		font-style:italic;
+	}
+	.content-wrapper-bg{
+		margin: 0 30px;
+	}
+	.content-title{
+		font-size: 30px;
+		text-align: center;
+		margin-bottom: 50px;
+		font-family: メイリオ;
+	}
+	.section-text{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.section-img{
+		width: 80%;
+		vertical-align: top;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.section-logo{
+		text-align: center;
+		font-size: 30px;
+		opacity: 0.1;
+		font-family:Noto serif;
+		font-style: bold;
+	}
+	.section-wrapper-works{
+		width: 100%;
+		height: 1400px;
+		background-image: url("https://user-images.githubusercontent.com/64465468/85514685-41b41980-b637-11ea-8350-9484f8f9eaf7.jpg");
+		color: white;
+		background-size: cover;
+	}
+	.section-title{
+		font-size: 50px;
+		text-align: center;
+		font-family:Noto serif;
+		font-style:italic;
+		padding-top: 30px;
+	}
+	.s-section-wrapper{
+		width: 80%;
+		height: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: white;
+		text-align: center;
+	}
+	.content-wrapper-works {
+		text-align: center;
+		margin-top: 50px;
+	}
+	button{
+		width: 300px;
+		background-color: darkorange;
+		height: 50px;
+		color: white;
+		font-size: 30px;
+	}
+	.works-button{
+		text-align: center;
+		margin-top: 30px;
+	}
+	.content-wrapper-works p{
+		width: 80%;
+		color: black;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.service-section-wrapper{
+		width: 100%;
+		height: 950px;
+		margin-top: 50px;
+	}
+	.w-section-title{
+		text-align: center;
+	}
+	.s-section-wrapper-service{
+		width: 100%;
+		height: 200px;
+		margin-bottom: 70px;
+	}
+	.s-section-wrapper-service p{
+		height: 300px;
+		text-align:center;
+		color: white;
+		font-size: 25px;
+		font-family:Noto serif;
+		font-style:italic;
+	}
+	.hearing{
+		background-image: url(https://user-images.githubusercontent.com/64465468/85515229-d9196c80-b637-11ea-970e-d3d91f1552ae.jpg);
+		background-size: cover;
+	}
+	.planning{
+		background-image: url(https://user-images.githubusercontent.com/64465468/85515240-dc145d00-b637-11ea-820f-ebcbf9610b16.jpg);
+		background-size: cover;
+	}
+	.directing{
+		background-image: url(https://user-images.githubusercontent.com/64465468/85515255-dfa7e400-b637-11ea-9acc-7674e815f609.jpg);
+		background-size: cover;
+	}
+	.service-content{
+		margin-bottom: 100px;
+	}
+	.section-wrapper{
+		width: 100%;
+		height: 450px;
+		background-image: url(https://user-images.githubusercontent.com/64465468/85514260-d2d6c080-b636-11ea-907b-5bf21307fcae.jpg);
+		color: white;
+		text-align: center;
+		background-size: cover;
+	}
+	.contact-section-title{
+		text-align:center;
+		font-size: 50px;
+		font-family:Noto serif;
+		font-style:italic;
+	}
+	.contact-text{
+		margin: 100px 0;
+		font-size: 30px;
+	}
+	.contact-logo{
+		text-align: center;
+		font-size: 30px;
+		opacity: 0.1;
+		font-family:Noto serif;
+		font-style: bold;
+	}
+	.footer{
+		text-align: center;
+	}
+}
